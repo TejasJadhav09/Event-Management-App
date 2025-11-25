@@ -1,0 +1,93 @@
+/* Advanced Modern Theme for Event Management App */
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  color: #222;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(60, 60, 120, 0.08);
+  border-radius: 0 0 16px 16px;
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+}
+
+.navbar-brand, .nav-link {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #fbbf24 !important;
+}
+
+.card {
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(60, 60, 120, 0.10);
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6366f1;
+}
+
+.card-subtitle {
+  color: #64748b;
+}
+
+.btn-primary, .btn-success, .btn-warning, .btn-danger {
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(60, 60, 120, 0.08);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #60a5fa 0%, #6366f1 100%);
+}
+
+.form-control, textarea {
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  box-shadow: none;
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #6366f1;
+}
+
+.alert-success {
+  border-radius: 8px;
+  background: #e0f2fe;
+  color: #2563eb;
+  border: none;
+}
+
+h2, h5 {
+  color: #6366f1;
+  font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card {
+    border-radius: 10px;
+  }
+  .navbar {
+    border-radius: 0 0 8px 8px;
+  }
+}
